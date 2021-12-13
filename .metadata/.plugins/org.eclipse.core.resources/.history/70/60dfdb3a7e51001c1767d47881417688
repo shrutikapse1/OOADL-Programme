@@ -1,0 +1,26 @@
+package i2.client;
+
+import i2.logic.IMDB;
+import i2.logic.Movie;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		Movie m=new Movie();
+        IMDB i=new IMDB();
+        int rating,ch;
+        m.setName("Three Idiots");
+        do {
+        	System.out.println("Give Rating to Three Idiots Movie:");
+            rating=sc.nextInt();
+            i.giveRating(rating);
+        	System.out.println("Do You want to rate more:");
+            ch=sc.nextInt();
+        }while(ch==1);
+        m.displayMovieDetails();
+        
+	}
+
+}

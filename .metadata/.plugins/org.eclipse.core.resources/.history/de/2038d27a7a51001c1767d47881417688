@@ -1,0 +1,55 @@
+package i2.logic;
+
+public class Movie {
+    private String name;
+    private IMDB imdbRating;
+    private int noOfUsers;
+    public Movie() {
+    	imdbRating=new IMDB();
+    }
+    public String getName() {
+    	return this.name;
+    }
+    public void setName(String name) {
+    	this.name=name;
+    }
+    public IMDB getImdbRating() {
+    	return this.imdbRating;
+    }
+    public void setImdbRating(IMDB imdbRating) {
+    	this.imdbRating=imdbRating;
+    }
+    public void displayMovieDetails() {
+    	System.out.println("Movie Name :"+this.name);
+    	System.out.println("IMDB Rating:"+imdbRating.calculateAverageRating());
+    	System.out.println("Total Number Of Users:"+imdbRating.getTotalNoOfUsers());
+    }
+}
+//package i2.logic;
+//
+//import java.util.Scanner;
+//
+//public class Movie {
+//
+//private String movieName;
+//private double IMDBRating;
+//
+//Scanner sc = new Scanner(System.in);
+//
+//public String getMovieName() {
+//return movieName;
+//}
+//public void setMovieName(String movieName) {
+//this.movieName = movieName;
+//}
+//
+//IMDBRating r = new IMDBRating();
+//
+//public double getIMDBRating() {
+//return IMDBRating;
+//}
+//public void setIMDBRating(double rating) {
+//r.countRating();
+//IMDBRating = r.calculateAverageRating();
+//IMDBRating = rating;
+//}

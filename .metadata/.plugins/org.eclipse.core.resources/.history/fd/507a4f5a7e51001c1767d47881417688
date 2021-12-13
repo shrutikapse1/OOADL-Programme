@@ -1,0 +1,29 @@
+package i2.logic;
+
+public class Movie {
+    private String name;
+    private double imdbRating;
+    public Movie() {
+    	IMDB imdb=new IMDB();
+    }
+    public String getName() {
+    	return this.name;
+    }
+    public void setName(String name) {
+    	this.name=name;
+    }
+    public double getImdbRating() {
+    	return this.imdbRating;
+    }
+    public void setImdbRating(IMDB rating) {
+    	IMDB imdb=new IMDB();
+    	imdb.giveRating(0);
+		imdbRating = r.calculateAverageRating();
+		IMDBRating = rating;
+    }
+    public void displayMovieDetails() {
+    	System.out.println("Movie Name :"+this.name);
+    	System.out.println("IMDB Rating:"+imdbRating.calculateAverageRating());
+    	System.out.println("Total Number Of Users:"+imdbRating.getTotalNoOfUsers());
+    }
+}

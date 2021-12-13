@@ -1,0 +1,12 @@
+package i2.logic;
+
+public class Item {
+	private String name;
+	private double cost;
+	private DiscountPolicy d;
+	public Item(String itemName, double itemCost) {
+		this.itemName = itemName;
+		this.itemCost = itemCost;
+		this.setDiscountPolicy(d);
+	}
+}

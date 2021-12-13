@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;i2.logic.DiscountPolicy.discount&apos; in &apos;i2.logic.DiscountPolicy&apos;&#x0D;&#x0A;- Original project: &apos;ItemDiscountProgramme&apos;&#x0D;&#x0A;- Original element: &apos;i2.logic.DiscountPolicy.discount&apos;&#x0D;&#x0A;- Getter method name: &apos;getDiscount&apos;&#x0D;&#x0A;- Setter method name: &apos;setDiscount&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;discount&apos;" flags="589830" getter="getDiscount" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;i2.logic{DiscountPolicy.java[DiscountPolicy^discount" insertion="1" setter="setDiscount" stamp="1636449190370" version="1.0" visibility="1"/>
+</session>

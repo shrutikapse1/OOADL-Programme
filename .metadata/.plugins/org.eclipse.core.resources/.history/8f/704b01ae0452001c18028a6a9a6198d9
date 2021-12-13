@@ -1,0 +1,19 @@
+package i2.logic;
+
+public class Bill {
+	private LineItem[] noOfLineItem;
+	private double BillnetPayableAmount;
+
+	public Bill() {
+		LineItem noLineItem
+		BillnetPayableAmount = 0;
+	}
+
+	public double calculateBillNetPayableAmount(int noOfLineItem) {
+		for (int i = 0; i < noOfLineItem; i++) {
+			noOfLineItem[i] = new LineItem();
+			BillnetPayableAmount = BillnetPayableAmount + noOfLineItem[i].getNetPayableAmount();
+		}
+		return BillnetPayableAmount;
+	}
+}

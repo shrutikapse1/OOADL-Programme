@@ -1,0 +1,17 @@
+package i2.client;
+
+import i2.logic.IMDB;
+import i2.logic.Movie;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		Movie m=new Movie();
+        m.setName("Three Idiots");
+        m.displayMovieDetails();
+        
+	}
+
+}

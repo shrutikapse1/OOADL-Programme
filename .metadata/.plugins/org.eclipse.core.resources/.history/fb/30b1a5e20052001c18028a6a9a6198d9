@@ -1,0 +1,14 @@
+package i2.logic;
+
+public class BuyNItemsGetOneFree extends DiscountPolicy {
+    private int n;
+
+    public BuyNItemsGetOneFree(int n) {
+        this.n = n;
+    }
+
+    public double computeDiscount(int count, double itemCost) {
+        int i = count / this.n;
+        return i <= 0 ? 0.0D : 10.0D * (double)i;
+    }
+}

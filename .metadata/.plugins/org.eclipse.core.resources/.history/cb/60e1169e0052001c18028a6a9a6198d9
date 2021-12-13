@@ -1,0 +1,21 @@
+package i2.logic;
+
+public class BulkDiscount extends DiscountPolicy {
+    private int minimumQuantity;
+    private double percent;
+    private double discount;
+
+    public BulkDiscount(int minimumQuantity, double percent) {
+        this.minimumQuantity = minimumQuantity;
+        this.percent = percent;
+        this.discount = 0;
+    }
+
+    public double computeDiscount(int count, double itemCost) {
+        if (count > this.minimumQuantity) {
+            this.discount = this.percent / itemCost * 100.0D;
+        }
+
+        return this.discount;
+    }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="i3.logic.Student"/>
+    <fullyQualifiedTypeName name="i2.logic.Quiz"/>
+    <fullyQualifiedTypeName name="i2.logic.Library"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="i2.logic.Date"/>
+    <fullyQualifiedTypeName name="i2.logic.MobileBill"/>
+    <fullyQualifiedTypeName name="i2.logic.BuyNItemsGetOneFree"/>
+    <fullyQualifiedTypeName name="i2.logic.Item"/>
+    <fullyQualifiedTypeName name="i2.logic.BulkDiscount"/>
+    <fullyQualifiedTypeName name="i2.logic.Bill"/>
+    <fullyQualifiedTypeName name="i2.logic.Movie"/>
+    <fullyQualifiedTypeName name="i2.logic.IMDB"/>
+    <fullyQualifiedTypeName name="i2.logic.LineItem"/>
+</qualifiedTypeNameHistroy>

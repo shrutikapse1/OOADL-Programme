@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;UsingArrayList.java&apos; to &apos;StudentPersonalInfo/src/i2.client&apos;&#x0D;&#x0A;- Original project: &apos;StudentMarksheet&apos;&#x0D;&#x0A;- Destination element: &apos;StudentPersonalInfo/src/i2.client&apos;&#x0D;&#x0A;- Original element: &apos;i2.client.UsingArrayList.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=StudentPersonalInfo/src&lt;i2.client" element1="/src&lt;i2.client{UsingArrayList.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1633599003505" units="1" version="1.0"/>
+</session>

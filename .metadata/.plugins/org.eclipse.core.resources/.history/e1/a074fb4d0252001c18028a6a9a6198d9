@@ -1,0 +1,10 @@
+package i2.logic;
+
+public class LineItem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

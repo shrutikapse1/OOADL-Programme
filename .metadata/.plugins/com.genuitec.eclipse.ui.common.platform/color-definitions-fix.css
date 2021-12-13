@@ -1,0 +1,68 @@
+IEclipsePreferences#org-eclipse-cdt-ui {
+	preferences:
+		'buildConsoleBackgroundColor=246,240,250'
+		'buildConsoleProblemBackgroundColor=250,247,252'
+		'buildConsoleProblemInfoBackgroundColor=246,240,250'
+		'buildConsoleProblemWarningBackgroundColor=250,247,252'
+}
+IEclipsePreferences#org-eclipse-debug-ui {
+	preferences:
+		'org.eclipse.debug.ui.consoleBackground=246,240,250'
+}
+IEclipsePreferences#org-eclipse-ui-editors {
+	preferences:
+		'AbstractTextEditor.Color.Background=250,247,252'
+		'AbstractTextEditor.Color.Background.SystemDefault=false'
+		'AbstractTextEditor.Color.Foreground=14,6,19'
+		'AbstractTextEditor.Color.Foreground.SystemDefault=false'
+		'AbstractTextEditor.Color.SelectionBackground=0,120,215'
+		'AbstractTextEditor.Color.SelectionBackground.SystemDefault=false'
+		'AbstractTextEditor.Color.SelectionForeground=255,255,255'
+		'AbstractTextEditor.Color.SelectionForeground.SystemDefault=false'
+		'asOccurencesIndicationColor=212,212,212'
+		'currentIPColor=229,213,241'
+		'currentLineColor=234,221,244'
+		'deletionIndicationColor=28,13,38'
+		'filteredSearchResultIndicationColor=237,237,252'
+		'findBlockColor=90,120,255'
+		'findIndicationColor=255,253,208'
+		'fullcoverage_color=173,230,173'
+		'matchingTagIndicationColor=218,194,235'
+		'nocoverage_color=230,145,145'
+		'occurrenceIndicationColor=212,212,212'
+		'org.eclipse.cdt.ui.writeOccurrenceIndicationColor=212,212,212'
+		'partialcoverage_color=230,230,115'
+		'redhatTextOccurrenceIndicationColor=212,212,212'
+		'searchResultHighlighting=false'
+		'searchResultIndication=true'
+		'searchResultIndicationColor=201,167,226'
+		'searchResultTextStyle=BOX'
+		'secondaryIPColor=229,213,241'
+		'writeOccurrenceIndicationColor=240,216,168'
+}
+IEclipsePreferences#org-eclipse-ui-workbench {
+	preferences:
+		'CONTENT_ASSIST_BACKGROUND_COLOR=227,209,240'
+		'CONTENT_ASSIST_FOREGROUND_COLOR=17,8,23'
+		'content_assist_parameters_background=227,209,240'
+		'content_assist_parameters_foreground=17,8,23'
+		'content_assist_proposals_background=227,209,240'
+		'content_assist_proposals_foreground=17,8,23'
+		'org.eclipse.egit.ui.DiffAddBackgroundColor=219,255,148'
+		'org.eclipse.egit.ui.DiffHeadlineBackgroundColor=246,240,250'
+		'org.eclipse.egit.ui.DiffHunkBackgroundColor=246,240,250'
+		'org.eclipse.egit.ui.DiffRemoveBackgroundColor=255,172,172'
+}
+IEclipsePreferences#org-eclipse-wst-jsdt-ui {
+	preferences:
+		'CONTENT_ASSIST_BACKGROUND_COLOR=227,209,240'
+		'CONTENT_ASSIST_FOREGROUND_COLOR=17,8,23'
+		'content_assist_parameters_background=227,209,240'
+		'content_assist_parameters_foreground=17,8,23'
+		'content_assist_proposals_background=227,209,240'
+		'content_assist_proposals_foreground=17,8,23'
+}
+IEclipsePreferences#org-eclipse-xtend-core-Xtend {
+	preferences:
+		'org.eclipse.xtend.core.Xtend.syntaxColorer.tokenStyles.xtend.richText.bgColor=232,217,242'
+}
